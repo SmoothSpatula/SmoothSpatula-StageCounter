@@ -40,7 +40,7 @@ gm.post_code_execute(function(self, other, code, result, flags)
         local director = gm._mod_game_getDirector()
         if director and gm._mod_instance_valid(director) == 1.0 then
             gm.draw_set_font(5)
-            gm.draw_text_transformed_colour(gm.display_get_gui_width()-(105*gm.prefs_get_zoom_scale()), 52*gm.prefs_get_zoom_scale(), "STAGE: "..math.floor(director.stages_passed+100), gm.prefs_get_zoom_scale(), gm.prefs_get_zoom_scale(), 0, 8421504, 8421504, 8421504, 8421504, 1.0)
+            gm.draw_text_transformed_colour(gm.display_get_gui_width()-(105*gm.prefs_get_zoom_scale()), 52*gm.prefs_get_zoom_scale(), "STAGE: "..math.floor(director.stages_passed+1), gm.prefs_get_zoom_scale(), gm.prefs_get_zoom_scale(), 0, 8421504, 8421504, 8421504, 8421504, 1.0)
         end
     end
 end)
