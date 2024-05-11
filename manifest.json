@@ -2,7 +2,7 @@
 	"name": "StageCounter",
 	"version_number": "1.0.3",
 	"website_url": "https://github.com/SmoothSpatula/SmoothSpatula-StageCounter",
-	"description": "Display the stage number, name and variant on the HUD ",
+	"description": "Displays the stage number, name and variant on the HUD ",
 	"dependencies": [
 		"ReturnOfModding-ReturnOfModding-1.0.20",
 		"SmoothSpatula-TomlHelper-1.0.0"
