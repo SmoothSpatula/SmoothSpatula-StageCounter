@@ -1,5 +1,5 @@
 # SmoothSpatula-StageCounter
-Display the stage number on the HUD
+Display the stage number, name and variant on the HUD
 
 ---
 
